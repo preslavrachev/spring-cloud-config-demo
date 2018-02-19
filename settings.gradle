@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cloud-config'
+
+include 'shared'
+include 'app'
+include 'config-server'
