@@ -17,9 +17,17 @@ class ClientApplication {
     @Value("\${config.answer}")
     private var theAnswer: Int = 0
 
+    @Value("\${config.secret.answer}")
+    private var theSecretAnswer: Int = 0
+
     @GetMapping("/theAnswer")
     fun theAnswer(): Int {
         return theAnswer
+    }
+
+    @GetMapping("/theSecretAnswer")
+    fun theSecretAnswer(): Int {
+        return theSecretAnswer
     }
 }
 
