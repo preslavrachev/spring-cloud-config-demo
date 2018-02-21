@@ -34,13 +34,14 @@ first 🚀
 ### Config Server API Endpoints
 
 #### Fetching an entire configuration manually
-```
-/{application}/{profile}[/{label}]
+```bash
+GET /{application}/{profile}[/{label}]
 # e.g. /sccdemo/dev/master | /sccdemo/dev/sample-feature-branch-1234 | /sccdemo/prod | /sccdemo/dev,prod
-/{application}-{profile}.yml
-/{label}/{application}-{profile}.yml
-/{application}-{profile}.properties
-/{label}/{application}-{profile}.properties
+
+GET /{application}-{profile}.yml
+GET /{label}/{application}-{profile}.yml
+GET /{application}-{profile}.properties
+GET /{label}/{application}-{profile}.properties
 ```
 
 ### FAQ
