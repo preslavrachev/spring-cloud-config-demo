@@ -13,7 +13,7 @@ This is a demo Spring Boot application developed to demonstrate the use of the [
 ```bash
 KEYSTORE_LOCATION=classpath:/server.jks \
 KEYSTORE_SECRET=testkeypass \
-KEYSTORE_ALIAS=mytestkey \ 
+KEYSTORE_ALIAS=mytestkey \
 KEYSTORE_PASSWORD=teststorepass \
 ./gradlew :config-server:bootRun
 ```
