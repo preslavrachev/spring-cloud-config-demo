@@ -62,3 +62,5 @@ The key comes with the following credentials (which need to be passed to the ser
 * https://cloud.spring.io/spring-cloud-config/
 * https://spring.io/guides/gs/centralized-configuration/
 * http://tech.asimio.net/2016/12/09/Centralized-and-Versioned-Configuration-using-Spring-Cloud-Config-Server-and-Git.html
+* http://www.baeldung.com/spring-cloud-configuration
+* http://jeroenbellen.com/manage-and-reload-spring-application-properties-on-the-fly/
