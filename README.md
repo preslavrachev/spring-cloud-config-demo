@@ -20,15 +20,27 @@ KEYSTORE_LOCATION=classpath:/server.jks KEYSTORE_SECRET=testkeypass KEYSTORE_ALI
 ./gradlew :app:bootRun
 ```
 
-### Client API endpoints
+### Client API Endpoints
 
 ```
-GET http://localhost:8080/theAnswer**
+GET http://localhost:8080/theAnswer
 # will return 42, of course 😉
 
 GET http://localhost:8080/theSecretAnswer
 # will also return 42, but decrypt it out of AQAjSkkiCrikkvLGEKzld6GTIm6Q87iLKVGRGFZOD+bUTPUGgNmu65QTADEnBRBu89UXh9HER/96irs7LYX6FAWnZoirkSPWqOYkx4XC3lA/iVoa3/P7N4tIEh1SwtraKWP6GUs1GWuZBFIGNmaegKGFBsnej09rLSyRG2ARxWoJ2fJN9xSInwG0DceR9CBxYQjnY1RDP8o/OJSg0Ad0HhYmD6sMRbvLz1O5COLVnJZa4LRK4U/K7omSA2D1wNR8KiiZgZSRgsuUSFnCZ4/3i/faDTwJmuIJaLL5k+wR2BhqykvG19RyAN/uE74yEMHcL4JJ12SRupPzn74QEQkmmTsGXGyKYcMRsMvE9NRsc95s3HguSl2dXmb3GqEb+yHT2h0= 
 first 🚀
+```
+
+### Config Server API Endpoints
+
+#### Fetching an entire configuration manually
+```
+/{application}/{profile}[/{label}]
+# e.g. /sccdemo/dev/master | /sccdemo/dev/sample-feature-branch-1234 | /sccdemo/prod | /sccdemo/dev,prod
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
 ```
 
 ### FAQ
