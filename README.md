@@ -68,3 +68,4 @@ The key comes with the following credentials (which need to be passed to the ser
 * http://tech.asimio.net/2016/12/09/Centralized-and-Versioned-Configuration-using-Spring-Cloud-Config-Server-and-Git.html
 * http://www.baeldung.com/spring-cloud-configuration
 * http://jeroenbellen.com/manage-and-reload-spring-application-properties-on-the-fly/
+* https://andressanchezblog.wordpress.com/2016/09/15/refresh-scope-in-spring-cloud/
