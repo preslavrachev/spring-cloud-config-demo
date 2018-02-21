@@ -16,13 +16,13 @@ KEYSTORE_LOCATION=classpath:/server.jks KEYSTORE_SECRET=testkeypass KEYSTORE_ALI
 
 ### STARTING THE CLIENT APP
 
-```
+```bash
 ./gradlew :app:bootRun
 ```
 
 ### Client API Endpoints
 
-```
+```bash
 GET http://localhost:8080/theAnswer
 # will return 42, of course 😉
 
